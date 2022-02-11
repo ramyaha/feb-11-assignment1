@@ -1,0 +1,41 @@
+sno=int(input('enter no'))
+sname=input('enter name')
+sgroup=input('enter group')
+s1=int(input('s1 marks'))
+s2=int(input('s2 marks'))
+s3=int(input('s3 marks'))
+s4=int(input('s4 marks'))
+s5=int(input('s5 marks'))
+s6=int(input('s6 marks'))
+total=s1+s2+s3+s4+s5+s6
+avg=total/6
+if s1>=35 and s2>=35 and s3>=35 and s4>=35 and s5>=35 and s6>=35:
+    if avg>=91:
+        print('0 grade')
+        print('pass')
+    elif avg>=81:
+        print('a grade')
+        print('pass')
+    elif avg>=71:
+        print('b grade')
+        print('pass')
+    elif avg>=61:
+        print('c grade')
+        print('pass')
+    elif avg>=51:
+        print('d grade')
+        print('pass')
+else:
+    print('fail')
+output:
+enter no 4
+enter namehari
+enter groupmpcs
+s1 marks98
+s2 marks99
+s3 marks85
+s4 marks96
+s5 marks95
+s6 marks94
+0 grade
+pass
